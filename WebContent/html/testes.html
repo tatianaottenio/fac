@@ -1,0 +1,56 @@
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../css/datepicker.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-combobox.css">
+<div class="well">
+    <div class="media">
+        <a class="pull-left" href="#" >
+            <img class="media-object img-thumbnail " src="../Imagens/male_userG.png" alt="Responsive image" style="width: 40%">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading" >Media heading</h4>
+        </div>
+    </div>
+</div>
+
+<!-- Outro teste de campo Select -->
+<div>&nbsp;</div>
+
+<div class="row">
+    <form>
+        <fieldset>
+            <legend>Transforms a select box into a autoselecting combobox</legend>
+            <label>Turns this</label>
+            <select class="input-large">
+                <option value="">Choose a State</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="CT">Connecticut</option>
+                <option value="NY">New York</option>
+                <option value="MD">Maryland</option>
+                <option value="VA">Virginia</option>
+            </select>
+            <label>Into this</label>
+            <select class="combobox input-large" name="normal">
+                <option value="">Choose a State</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="CT">Connecticut</option>
+                <option value="NY">New York</option>
+                <option value="MD">Maryland</option>
+                <option value="VA">Virginia</option>
+            </select>
+        </fieldset>
+    </form>
+</div>
+
+<script language="javascript" src="../js/jquery.min.js"></script>
+<script language="javascript" src="../js/bootstrap.js"></script>
+
+<script language="javascript" src="../js/bootstrap-datepicker.js"></script>
+<script language="javascript" src="../js/bootstrap-combobox.js"></script>        
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.combobox').combobox();
+    });
+</script>
+
+
